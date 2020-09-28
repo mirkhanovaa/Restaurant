@@ -1,17 +1,43 @@
+/* MOBILE */
 @media only screen and (max-width: 767px) {
-  .box{
-    background-color: red;
+  #box1{
+    width: 100%;
+  }
+  
+  #box2{
+    width: 100%;
+  }
+  
+  #box3{
+    width: 100%;
   }
 }
-
+/* DESKTOP */
 @media only screen and (min-width:992px) {
-  .box{
-    background-color: green;
+  #box1{
+    width: 33.32%;
+  }
+  
+  #box2{
+    width: 33.32%;
+  }
+  
+  #box3{
+    width: 33.32%;
   }
 }
 
+/* TABLET */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .box{
-    background-color: blue;
+  #box1{
+    width: 50%;
+  }
+  
+  #box2{
+    width: 50%;
+  }
+  
+  #box3{
+    width: 100%;
   }
 }
