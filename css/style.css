@@ -1,6 +1,3 @@
-h1 {color: red;}
-body { background-color: yellow;}
-
 @media only screen and (max-width: 767px) {
   .box{
     background-color: red;
