@@ -1,2 +1,20 @@
 h1 {color: red;}
 body { background-color: yellow;}
+
+@media only screen and (max-width: 767px) {
+  .box{
+    background-color: red;
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .box{
+    background-color: green;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .box{
+    background-color: blue;
+  }
+}
