@@ -6,7 +6,7 @@
 /* MOBILE */
 @media only screen and (max-width: 767px) {
   #box1{
-    border: 1px;
+    border: 1px solid;
     background-color: maroon;
     width: 100%;
   }
