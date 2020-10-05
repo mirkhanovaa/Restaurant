@@ -1,51 +1,144 @@
-.container {
-  float:left;
+body {
+  background-color:grey;
+}
+div#container {
   margin-right:10px;
 }
+ #sasiq1{
+    background-color:green;
+  } 
+
+  #sasiq2{
+    background-color:maroon;
+    color:white;
+  }
+
+  #sasiq3{
+    background-color:yellow;
+  }
 
 /* MOBILE */
 @media only screen and (max-width: 767px) {
+
   #box1{
-    
-    width: 100%;
+    margin:auto;
+    width: 90%;
+    height: 120px;
+    border-style: solid;
+    background-color: lightblue;
+    box-sizing: border-box;
+    margin-bottom: 2%;
+
   }
   
   #box2{
-    width: 100%;
+    margin:auto;
+    height: 120px;
+    width: 90%;
+    border-style: solid;
+    background-color: blue;
+    box-sizing: border-box;
+    margin-bottom: 2%;
   }
   
   #box3{
-    width: 100%;
+    margin:auto;
+    height: 120px;
+    width: 90%;
+    border-style: solid;
+    background-color: green;
+    box-sizing: border-box;
   }
+
+  h2 {
+    margin: 0;
+    float:right;
+    width:20%;
+    border: 1px solid black;
 }
+
+}
+
 /* DESKTOP */
 @media only screen and (min-width:992px) {
   #box1{
-    width: 33.32%;
+    float:left;
+    width: 32.32%;
+    border-style: solid;
+    background-color: lightblue;
+    box-sizing: border-box;
+    height: 210px;
+    margin-right:1%;
   }
   
   #box2{
-    width: 33.32%;
+    float:left;
+    width: 32.32%;
+    border-style: solid;
+    background-color: blue;
+    box-sizing: border-box;
+    height: 210px;
+    margin-right:1%;
   }
   
   #box3{
-    width: 33.32%;
+    float:left;
+    width: 32.32%;
+    border-style: solid;
+    background-color: green;
+    box-sizing: border-box;
+    height: 210px;
+    margin-right:1%;
   }
+    
+  h2 {
+   width:120px;
+   border: 1px solid black;
+   margin:0;
+   float: right;
+}
+
 }
 
 /* TABLET */
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   #box1{
-    width: 50%;
+    width: 49%;
+    margin-right: 1%;
+    height:210px;
+    border-style: solid;
+    background-color: lightblue;
+    float:left;
+    box-sizing: border-box;
+    margin-bottom: 2%;
   }
   
   #box2{
-    width: 50%;
+    box-sizing: border-box;
+    width: 49%;
+    margin-left: 1%;
+    height:210px;
+    border-style: solid;
+    background-color: blue;
+    float:left;
+    margin-bottom: 2%;
   }
   
   #box3{
+    height: 120px;
     width: 100%;
+    border-style: solid;
+    background-color: green;
+    clear:left;
+    box-sizing: border-box;
   }
+
+  h2 {
+   margin: 0;
+   float:right;
+   width:120px;
+   border: 1px solid black;
+   margin:0;
+   left: 255px;
 }
-
-
+}
